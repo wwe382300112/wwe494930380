@@ -20,7 +20,8 @@ const { WebSocket, createWebSocketStream } = require('ws');
 const UUID = process.env.UUID || '4dcc4fff-f025-42db-8753-7c5a214e9719';
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';
 const NEZHA_KEY = process.env.NEZHA_KEY || '';             
-const DOMAIN = process.env.DOMAIN || 'your-domain.com';    
+const DOMAIN = process.env.DOMAIN || '
+li.wwe494930380.kdns.fr';    
 const AUTO_ACCESS = process.env.AUTO_ACCESS || false;      
 const SUB_PATH = process.env.SUB_PATH || 'vercel';           
 const NAME = process.env.NAME || 'vercel';                       
